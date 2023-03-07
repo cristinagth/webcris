@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+    <head>
+        <meta charset="utf-8">
+        <link href="Css/CssPrincipal.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HWComparator</title>
+    </head>
+    <body>
+        <div id="contenedor" class="clearfix">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="Principal.html">Inicio</a></li>
+                        <li><a href="Merchandising.html">Merchandaising</a></li>
+                        <li><a href="Apps.html">Descargar APPS</a></li>
+                        <li><a href="CreaPC.html">Monta tu PC</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <div class="imagen">
+                    <h1>Elige tus apps</h1>
+                    <img src="img/fondoApp.png" alt="imagen de la pantalla de inicio"/>  
+                </div>
+                <section id="Formulario">
+                    <h2>Formulario</h2>
+                    <form action="incidencia.php" method="get">
+                        <fieldset>
+                            <legend>Correo notificaciones</legend>
+                            <label for="Usuario">Nombre</label>
+                            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"  size="30"/><br/>
+                            <label for="Usuario">Apellidos</label>
+                            <input type="text" id="Apellidos" name="Apellidos" placeholder="Apellidos"  size="30"/><br/>
+                            <label for="Usuario">Usuario</label>
+                            <input type="text" id="Usuario" name="Usuario" placeholder="Usuario"  size="30"/><br/>
+                            <label for="Email">Email</label>
+                            <input type="email" id="Email" name="Email" placeholder="email"  size="30"/><br/>
+
+
+                        </fieldset>
+                        <fieldset>
+                            <legend>APPS a instalar</legend>
+                            <h3>Buscadores PC</h3>
+                            <img src="img/chrome.png" alt="CHROME" />
+                            <label for="chrome">CHROME</label>
+                            <input type="checkbox" name="chrome" id="chrome" checked /><br><br>
+                            <img src="img/opera.png" alt="OperaGX" />
+                            <label for="OperaGX">OperaGX </label>
+                            <input type="checkbox" name="OperaGX" id="OperaGX"/><br><br>
+                            <img src="img/firefox.png" alt="Firefox" />
+                            <label for="firefox">Firefox</label>
+                            <input type="checkbox" name="firefox" id="firefox"/><br><br>
+                            <h3>Juegos</h3>
+                            <img src="img/LOL.png" alt="LOL" />
+                            <label for="LOL">League of Legends</label>
+                            <input type="checkbox" name="LOL" id="LOL" checked /><br><br>
+                            <img src="img/Steam.png" alt="Steam" />
+                            <label for="Steam">Steam </label>
+                            <input type="checkbox" name="Steam" id="Steam" checked /><br><br>
+                            <img src="img/Epic.png" alt="Epic" />
+                            <label for="Epic">Epic Games </label>
+                            <input type="checkbox" name="Epic" id="Epic" checked /><br><br>
+                            <h3>Mensajería</h3>
+                            <img src="img/discord.png" alt="Discord" />
+                            <label for="Discord"> Discord </label>
+                            <input type="checkbox" name="Discord" id="Discord" checked /><br><br>
+                            <img src="img/zoom.png" alt="Zoom" />
+                            <label for="Zoom"> Zoom </label>
+                            <input type="checkbox" name="Zoom" id="Zoom"/><br><br>
+                            <h3>Editores de texto</h3>
+                            <img src="img/office.png" alt="Office" />
+                            <label for="Office"> Office </label>
+                            <input type="checkbox" name="Office" id="Office" checked /><br><br>
+                            <h3>Video y Sonido</h3>
+                            <img src="img/spotify.png" alt="Spotify" />
+                            <label for="Spotify"> Spotify </label>
+                            <input type="checkbox" name="Spotify" id="Spotify" checked /><br><br>
+                            <h3>Extra</h3>
+                            <label for="Descripcion"> Te gustaría que incluyeramos alguna app?</label><br/>
+                            <textarea name="Descripcion" id="Descripcion" rows="10" cols="30" placeholder="Describete con detalle"></textarea><br/>
+                            <label for="Aviso">Te gustaría donar a este proyecto </label>
+                            <input type="checkbox" name="Aviso" id="Aviso" checked />
+                        </fieldset>
+                        <input type="submit" value="Enviar"/>
+                        <input type="reset" value="Limpiar"/>
+                    </form>
+                </section>
+                
+            </main>
+            <aside>
+                <div class="widget">
+                    <h3 class="titulo">Artículos en oferta</h3>
+                    <h3 class="titulo">Proximamente</h3>
+                    <ul>
+                        <li><a href="#Hamburguesas">Camiseta</a></li>
+                        <li><a href="#Complementos">Taza</a> </li>
+                        <li><a href="#Bebidas">Posavasos</a></li>
+                        <li><a href="#Postres">Turbante</a></li>
+                    </ul>   
+                </div>
+                <div class="widget">
+                    <h3 class="titulo">Información</h3>
+                    <ul>
+                        <li><a href="#envio">Envío</a></li>
+                    </ul>
+                    <img src="img/Logocircular.png" class="web" alt="HWComparator" />
+                </div> 
+                <div id="Local">
+                    <h3>Local</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.9981529681686!2d-3.676367184267737!3d40.342386979373856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422745126aa1f5%3A0xa33f20ebbfaaec71!2sTrujillo%20Burger%20Estefanita!5e0!3m2!1ses!2ses!4v1615126404601!5m2!1ses!2ses"  allowfullscreen=""></iframe>
+                </div>
+            </aside>
+            <footer>
+                    <p>HWComparator es diferente a otros sitios, pagina sin ánimo de lucro de momento.</p>
+                    <p>Tener tu ordenador ideal nunca había sido tan fácil</p>
+                    <div>
+                    <a href="#" ><img src="img/instagram-gris.png" class="insta" alt="Instagram" /></a> 
+                    <a href="#"><img class="face" src="img/Facebook.png" alt="Facebook" /></a> 
+                    <a  href="#"><img class="youtube" src="img/Youtube.png" alt="Youtube" /></a>
+                    <a href="#" ><img src="img/Logocircular.png" class="web" alt="HWComparator" /></a>
+                    </div>
+                    
+                    <p>
+                        Copyright © HWComparator. Todos los derechos reservados.
+                    </p>
+            </footer>
+        </div>
+    </body>
+</html>

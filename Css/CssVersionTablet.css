@@ -1,0 +1,45 @@
+#contenedor{
+    margin: 20px auto ;
+    max-width: 70%;
+    min-width: 20%;
+    background-color: #FAD7A0;
+}
+
+header{
+    width: 100%;
+}
+
+header li:nth-child(1){
+    float: left;
+}
+
+main{
+    width: 100%;
+}
+
+aside{
+    width: 100%;
+}
+
+footer{
+    width: 100%;
+}
+
+.posts article h2{
+    clear: both;
+}
+
+.posts article div{
+    float: left;
+    width: 50%;
+}
+
+.posts #Productos h3{
+    clear: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
